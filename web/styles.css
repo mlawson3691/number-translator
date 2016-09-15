@@ -1,0 +1,18 @@
+body {
+    background-image: url('background.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+p {
+    font-family: monospace;
+    font-size: 25px;
+}
+.well {
+    padding: 50px;
+    opacity: 0.8;
+    max-width: 50%;
+    margin: 40% auto;
+    border-radius: 25px;
+}

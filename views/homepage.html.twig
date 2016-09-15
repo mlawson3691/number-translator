@@ -2,17 +2,20 @@
 <html>
 <head>
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css" media="screen" title="no title" charset="utf-8">
     <title></title>
 </head>
 <body>
     <div class="container">
-        <form action="/" style="padding-top: 100px" method="post">
-            <div class="form-group">
-                <label for=""></label>
-                <input id="" name="" class="form-control" type="text" placeholder="">
-            </div>
-            <button type="submit" class="btn btn-info">GO!</button>
-        </form>
+        <div class="well">
+            <form action="/process" method="post">
+                <div class="form-group">
+                    <p>Enter a number less than 10 million!</p>
+                    <input id="" name="number" class="form-control" type="number" placeholder="" max="9999999">
+                </div>
+                <button type="submit" class="btn btn-info">GO!</button>
+            </form>
+        </div>
     </div>
 </body>
 </html>
