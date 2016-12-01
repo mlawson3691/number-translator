@@ -38,10 +38,6 @@ This application takes a number and translates it to its alphabetical equivalent
     * Example input: 8888
     * Example output: eight thousand eight hundred eighty eight
 
-* Return the correct term for numbers 100-999
-    * Example input: 377
-    * Example output: three hundred seventy seven
-
 ## Known Bugs
 
 There are no known bugs at this time.
